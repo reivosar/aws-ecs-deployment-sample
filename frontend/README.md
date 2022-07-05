@@ -17,7 +17,7 @@ aws ecr get-login-password --region ap-northeast-1 | docker login --username AWS
 
 ```
 aws ecr create-repository \
-    --repository-name hello-node-app \
+    --repository-name aws-ecs-deployment-sample-repository \
     --region ap-northeast-1
 ```
 
